@@ -1,9 +1,9 @@
 # Node modules
-node_modules/
+node_modules
 
 # Logs
 *.log
-logs/
+logs
 
 # Environment variables
 .env
@@ -13,8 +13,8 @@ logs/
 Thumbs.db
 
 # Build artifacts
-dist/
-build/
+dist
+build
 
 # IDE configs
-.vscode/
+.vscode
