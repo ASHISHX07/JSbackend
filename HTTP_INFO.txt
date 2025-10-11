@@ -1,0 +1,32 @@
+HTTP METHODS
+> GET		: retrieve a resource
+> HEAD		: no message body (response headers only)
+> OPTIONS	: what operations are available
+> TRACE		: loopback test (get same data)
+> DELETE	: remove a resource
+> PUT		: replace a resource
+> POST		: interact with resource (mostly add)
+> PATCH		: change past of a resource
+
+HTTP STATUS CODES (XX represents range ex. 101, 102 104 etc.)
+> 1XX		: informational
+> 2XX		: success
+> 3XX		: redirection
+> 4XX		: client error
+> 5XX		: server error
+
+MOST COMMNALY USED CODES
+
+100		: CONTINUE
+201		: PROCESSING
+200		: OK
+201		: CREATED
+202		: ACCEPTED
+307		: TEMPORARY REDIRECT
+308		: PERMENANT REDIRECT
+400		: BAD REQUEST
+401		: UNAUTHORIZED
+402		: PAYMENT REQUIRED
+404		: NOT FOUND
+500		: INTERNAL SERVER ERROR
+504		: GATEWAY TIMEOUT
